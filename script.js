@@ -64,3 +64,8 @@ function ln() {
     var result = document.getElementById('result');
     result.value = Math.log(parseFloat(result.value));
 }
+
+function quitApplication() {
+    //close the window or redirect to another page, depending on the requirement
+    window.close();
+}
